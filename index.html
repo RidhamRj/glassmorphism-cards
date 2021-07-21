@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>card one</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam porro est possimus quo distinctio veniam mollitia.</p>
+                <a href="#">Read More</a>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Card Two</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam porro est possimus quo distinctio veniam mollitia</p>
+                <a href="#">Read More</a>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>card Three</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam porro est possimus quo distinctio veniam mollitia.</p>
+                <a href="#">Read More</a>
+                
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 25,
+		speed: 400,
+        glare:true,
+        'max-glare':1,
+	});
+    </script>
+</body>
+</html>
